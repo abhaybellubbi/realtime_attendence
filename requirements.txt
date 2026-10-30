@@ -1,8 +1,19 @@
+# ==============================================================================
 # Workforce Attendance System - Python Dependencies
-# Python 3.10+ (64-bit required for Windows Biometric SDK DLLs)
+# ==============================================================================
+# Environment Requirement: Python 3.10+ (64-bit required for Windows Biometric SDK DLLs)
+# Installation Command:    pip install -r requirements.txt
+# ==============================================================================
 
+# Core Web Framework & WSGI HTTP Engine
 Flask>=3.0.0
 Werkzeug>=3.0.0
+
+# HTTP Client for Licensing Verification & Remote Heartbeat
 requests>=2.31.0
+
+# Enterprise Payroll Timesheet & Attendance Matrix Excel (.xlsx) Generation
 openpyxl>=3.1.2
+
+# Calendar Calculations, Date Parsing, and Timesheet Period Calculations
 python-dateutil>=2.8.2
